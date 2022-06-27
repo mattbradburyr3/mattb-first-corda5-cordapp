@@ -1,0 +1,4 @@
+Manifest-Version: 1.0
+Corda-CPB-Name: Mattb-first-corda5-cordapp
+Corda-CPB-Version: 1.0-SNAPSHOT
+

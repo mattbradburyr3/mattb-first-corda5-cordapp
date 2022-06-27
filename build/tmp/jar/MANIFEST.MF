@@ -1,0 +1,13 @@
+Manifest-Version: 1.0
+Bundle-SymbolicName: org.example.Mattb-first-corda5-cordapp
+Bundle-Name: Mattb-first-corda5-cordapp
+Bundle-Vendor: R3
+Bundle-License: Unknown
+Cordapp-Workflow-Name: Mattb-first-corda5-cordapp
+Cordapp-Workflow-Version: 1
+Cordapp-Workflow-Vendor: R3
+Cordapp-Workflow-Licence: Unknown
+Target-Platform-Version: 999
+Min-Platform-Version: 999
+Sealed: true
+

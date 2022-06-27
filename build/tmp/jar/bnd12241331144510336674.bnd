@@ -1,0 +1,16 @@
+Bundle-License=Unknown
+Sealed=true
+Bundle-SymbolicName=org.example.Mattb-first-corda5-cordapp
+Cordapp-Workflow-Licence=Unknown
+Cordapp-Workflow-Name=Mattb-first-corda5-cordapp
+Cordapp-Workflow-Version=1
+Cordapp-Workflow-Vendor=R3
+Bundle-Name=Mattb-first-corda5-cordapp
+Bundle-Vendor=R3
+Min-Platform-Version=999
+Target-Platform-Version=999
+Corda-Service-Classes=${classes;IMPLEMENTS;net.corda.v5.application.services.CordaService;CONCRETE;PUBLIC;STATIC;NAMED;\!*.[\\d]+*}
+Corda-Flow-Classes=${classes;IMPLEMENTS;net.corda.v5.application.flows.Flow;CONCRETE;PUBLIC;STATIC;NAMED;\!*.[\\d]+*}
+Corda-MappedSchema-Classes=${classes;EXTENDS;net.corda.v5.persistence.MappedSchema;CONCRETE;PUBLIC;STATIC;NAMED;\!*.[\\d]+*}
+Import-Package=org.hibernate.annotations;resolution\:\=dynamic;version\=\!,org.hibernate.proxy;resolution\:\=dynamic;version\=\!,*
+Corda-Contract-Classes=${classes;IMPLEMENTS;net.corda.v5.ledger.contracts.Contract;CONCRETE;PUBLIC;STATIC;NAMED;\!*.[\\d]+*}

@@ -1,0 +1,7 @@
+Manifest-Version: 1.0
+Corda-CPK-Format: 1.0
+Corda-CPK-Cordapp-Name: org.example.Mattb-first-corda5-cordapp
+Corda-CPK-Cordapp-Version: 1.0.0.SNAPSHOT
+Corda-CPK-Cordapp-Licence: Unknown
+Corda-CPK-Cordapp-Vendor: R3
+
