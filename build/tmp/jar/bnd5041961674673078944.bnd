@@ -13,4 +13,5 @@ Corda-Service-Classes=${classes;IMPLEMENTS;net.corda.v5.application.services.Cor
 Corda-Flow-Classes=${classes;IMPLEMENTS;net.corda.v5.application.flows.Flow;CONCRETE;PUBLIC;STATIC;NAMED;\!*.[\\d]+*}
 Corda-MappedSchema-Classes=${classes;EXTENDS;net.corda.v5.persistence.MappedSchema;CONCRETE;PUBLIC;STATIC;NAMED;\!*.[\\d]+*}
 Import-Package=org.hibernate.annotations;resolution\:\=dynamic;version\=\!,org.hibernate.proxy;resolution\:\=dynamic;version\=\!,*
+-exportcontents=com.mattb.cordapp.helloworld
 Corda-Contract-Classes=${classes;IMPLEMENTS;net.corda.v5.ledger.contracts.Contract;CONCRETE;PUBLIC;STATIC;NAMED;\!*.[\\d]+*}
