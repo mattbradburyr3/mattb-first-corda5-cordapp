@@ -52,9 +52,6 @@ class PassAMessageResponderFlow: ResponderFlow {
     override fun call(session: FlowSession) {
         log.info("MB: PassAMessageResponderFlow.call() called")
 
-//        val info = session.getCounterpartyFlowInfo()
-//        log.info("MB: info in Responder: $info")
-
         val myMessageDTO = session.receive(MyMessageDTO::class.java).unwrap { it }
         log.info("MB: myMessageDTO in Responder: $myMessageDTO")
     }
